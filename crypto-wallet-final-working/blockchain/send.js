@@ -26,12 +26,6 @@ async function sendTransaction(_receiverAddress, _ethAmount) {
   console.log(transaction);
 }
 
-// sendTransaction(process.argv[2], process.argv[3])
-//   .then(() => process.exit(0))
-//   .catch(error => {
-//     console.error(error);
-//     process.exit(1);
-//   });
 
 module.exports = sendTransaction;
 /*
